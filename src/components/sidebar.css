@@ -1,0 +1,52 @@
+.sidebar {
+  height: 960px;
+  width: 246px;
+  margin-left: 17px;
+  margin-top: 17px;
+  margin-bottom: 17px;
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+  background: #312e81;
+  box-sizing: border-box;
+  left: 0;
+}
+
+.logo {
+  color: #fff;
+  padding-left: 36px;
+  text-align: left;
+  margin-top: 47px;
+}
+
+.menu {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+
+.sidebar .menu button.active,
+.sidebar .bottom button.active {
+  background: linear-gradient(0deg, #9795cd, #9795cd),
+    linear-gradient(0deg, #ffffff, #ffffff);
+}
+
+.card.selected {
+  background-color: #fff;
+}
+
+.btn {
+  background: transparent;
+  border: none;
+  border-radius: 8px;
+  color: #fff;
+  margin: 5px;
+  padding-left: 36px;
+  padding-bottom: 10px;
+  text-align: left;
+  cursor: pointer;
+}
+
+.bottom {
+  display: grid;
+  padding-top: 23rem;
+}
